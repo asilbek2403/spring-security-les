@@ -17,6 +17,8 @@ public class RegionDto {
     private Boolean visible;
     private LocalDate createdDate;  // LocalDate bilan moslashtirildi
     private String description;
+
+    private String name;
 }
 
 
