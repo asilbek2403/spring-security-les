@@ -35,6 +35,7 @@ public class RegionEntity {
     private String nameEn;
 
 
+    private String name;
 }
 
 
