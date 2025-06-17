@@ -10,7 +10,6 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
 
-
 @Getter
 @Setter
 @Entity
@@ -35,7 +34,7 @@ public class ProfileEntity {
     @Column
     private Boolean visible=true;
     @CreationTimestamp
-    @Setter(AccessLevel.NONE)
+    @Setter(AccessLevel.NONE)//bu now() uchun mi?
     private LocalDateTime createdDate;
 
 
