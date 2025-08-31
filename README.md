@@ -4,3 +4,4 @@ Authentification V Authorization
 jwt
 Connection
 Headers
+... Password Coding MD5 BCRyptCoder
