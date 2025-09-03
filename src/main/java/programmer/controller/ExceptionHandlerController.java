@@ -42,7 +42,7 @@ public class ExceptionHandlerController {
 
 
 
-
+//Exception bo'lsa unga classda yaratib keyin Controllerda Handlerga olisa Controllerdagi excp ushlaydi va oddiy status boradi 
 
 
 }
