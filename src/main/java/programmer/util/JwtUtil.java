@@ -15,10 +15,6 @@ import java.util.Map;
 public class JwtUtil {
     //Access token = Jwt
     //RefreshToken new Access token
-    private static final int tokenLiveTime = 1000 * 3600 * 24; // 1-day
-    private static final long refreshTokenLiveTime = 1000L * 3600 * 24 * 30; // 1-day
-    private static final String secretKey = "veryLongSecretmazgillattayevlasharaaxmojonjinnijonsurbetbekkiydirhonuxlatdibekloxovdangasabekochkozjonduxovmashaynikmaydagapchishularnioqiganbolsangizgapyoqaniqsizmazgi";
-//    private static final String secretKey = "veryLongSecretmazgillattayevlasharaaxmojonjinnijonsurbetbekkiydirhonuxlatdibekloxovdangasabekochkozjonduxovmashaynikmaydagapchishularnioqiganbolsangizgapyoqaniqsizmazgi";
 
 
 
