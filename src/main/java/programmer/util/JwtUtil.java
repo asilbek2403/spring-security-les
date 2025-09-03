@@ -86,5 +86,5 @@ public class JwtUtil {
             return claims.getExpiration().after(new Date());
 
     }
-
+//HAr xil serviceda kerakli metodlar uchun Jwt Basic
 }
