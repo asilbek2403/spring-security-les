@@ -1,0 +1,77 @@
+
+###Create registration
+POST localhost:8080/profile/registr
+Content-Type: application/json
+#Authorization: Basic OTk4OTA3NjU0MzIxOjExMzI=
+
+{
+  "name": "Aisha",
+  "surname": "Ali",
+  "phone": "998907654321",
+  "password": "1132",
+  "profileRole": "ROLE_ADMIN"
+
+}
+###Create registration
+POST localhost:8080/profile/registr
+Content-Type: application/json
+#Authorization: Basic OTk4OTA3NjU0MzIxOjExMzI=
+
+{
+  "name": "Ali",
+  "surname": "VAli",
+  "phone": "9911002233",
+  "password": "1313",
+  "profileRole": "ROLE_ADMIN"
+
+}
+###Create registration
+POST localhost:8080/profile/registr
+Content-Type: application/json
+#Authorization: Basic OTkxMTAwMjIzMzoxMzEz
+
+{
+  "name": "XolidValid",
+  "surname": "Ali",
+  "phone": "998907651",
+  "password": "112",
+  "profileRole": "ROLE_ADMIN"
+
+}
+###Create reg
+POST localhost:8080/profile/registr
+Content-Type: application/json
+#Authorization: Basic OTkxMTAwMjIzMzoxMzEz
+
+{
+  "name": "Bilol",
+  "surname": "Ali",
+  "phone": "1238907651",
+  "password": "333112",
+  "profileRole": "ROLE_USER"
+
+}
+###Create auth
+POST localhost:8080/profile/authorization
+Content-Type: application/json
+#Authorization: Basic OTkxMTAwMjIzMzoxMzEz
+
+{
+
+  "phone": "1238907651",
+  "password": "333112"
+
+}
+###Update access Token--->refreshToken
+POST localhost:8080/profile/refreshToken
+Content-Type: application/json
+#Authorization: Basic OTkxMTAwMjIzMzoxMzEz
+
+{
+
+  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiUk9MRV9VU0VSIiwicGhvbmUiOiIxMjM4OTA3NjUxIiwic3ViIjoiMTIzODkwNzY1MSIsImlhdCI6MTc1Njg3MDg5OSwiZXhwIjoxNzU5NDYyODk5fQ.evPltnVDFY0rT5fXzpbs9Hs_z_5FMnd0GWtoYrmo9riYKJHblFM9jb1q8vVwx3kH2F8lmYaPLuGY61gPTxnnRw"
+
+}
+
+
+###//ALHAMDULILLAH
